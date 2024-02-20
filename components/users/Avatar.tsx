@@ -17,7 +17,6 @@ export function Avatar({
   otherStyles: string;
   name: string;
 }) {
-  console.log(otherStyles);
   return (
     <div
       className={`relative h-9 w-9 rounded-full ${otherStyles}`}
